@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
 
+
     <Button
         android:id="@+id/button1"
         android:layout_width="206dp"
@@ -72,7 +73,13 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="176dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
