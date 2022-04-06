@@ -27,9 +27,14 @@
         <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/drawable/roundbutton.xml" value="0.194" />
         <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/drawable/shapecolor.xml" value="0.194" />
         <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/drawable/shapedrawble.xml" value="0.194" />
+        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout-w936dp/activity_create_user.xml" value="0.1296875" />
+        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout-w936dp/activity_edit_user.xml" value="0.1296875" />
         <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_create_group.xml" value="0.2351851851851852" />
-        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_login_client.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_login_client.xml" value="0.264" />
         <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_manage_group.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_participate_group.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/taek/AndroidStudioProjects/CapstoneProject/app/src/main/res/layout/activity_register.xml" value="0.2222222222222222" />
       </map>
     </option>
   </component>
