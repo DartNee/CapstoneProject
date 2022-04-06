@@ -14,7 +14,7 @@ interface ApiService {
 //    fun getUser(@Path(value = "page", encoded = true)page :String): Call<JsonElement>
 
     @GET(API_GET_USER)
-    fun getUser(@Path(value = "id", encoded = true)id :Int): Call<JsonElement>
+    fun getUser(@Path(value = "id", encoded = true)id :String): Call<JsonElement>
 
 
     // firstName, lastName, email, password

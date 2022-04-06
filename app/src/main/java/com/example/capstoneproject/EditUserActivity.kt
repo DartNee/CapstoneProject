@@ -2,9 +2,8 @@ package com.example.capstoneproject
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.example.capstoneproject.model.User
-import com.example.restapitutorial.retrofit.RetrofitManager
+import com.example.capstoneproject.retrofit.RetrofitManager
 import kotlinx.android.synthetic.main.activity_edit_user.*
 
 class EditUserActivity : AppCompatActivity() {
