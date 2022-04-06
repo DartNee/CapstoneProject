@@ -33,5 +33,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Manage_Schedule::class.java)
             startActivity(intent)
         }
+
+        binding.loginbtn.setOnClickListener {
+            val intent = Intent(this, LoginClient::class.java)
+            startActivity(intent)
+        }
     }
 }

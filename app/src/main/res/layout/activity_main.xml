@@ -11,50 +11,57 @@
         android:id="@+id/button1"
         android:layout_width="206dp"
         android:layout_height="50dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="102dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#4F2196F3"
         android:elevation="10dp"
         android:text="그룹 생성"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="206dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="102dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#4F2196F3"
         android:text="그룹 참가"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="@+id/button3" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="206dp"
         android:layout_height="50dp"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#4F2196F3"
         android:text="그룹 관리"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
-        app:layout_constraintStart_toStartOf="@+id/button4" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="206dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="168dp"
+        android:layout_marginTop="30dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#4F2196F3"
         android:text="스케줄 관리"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -70,6 +77,18 @@
         app:titleTextColor="#8B0000">
 
     </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="159dp"
+        android:text="login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
